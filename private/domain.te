@@ -1854,11 +1854,8 @@ neverallow {
     -zygote
     userdebug_or_eng(`-mediaextractor')
     userdebug_or_eng(`-mediaswcodec')
-<<<<<<< HEAD
     userdebug_or_eng(`-overlay_remounter')
-=======
     -recovery
->>>>>>> a1bc79e3b (sepolicy: Exempt recovery from few neverallows)
 } {
     file_type
     -system_file_type
